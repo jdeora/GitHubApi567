@@ -16,17 +16,6 @@ def get_repo_commits(user_id):
 
 get_repo_commits("jdeora")
 
-import unittest
-
-class TestGitHubAPI(unittest.TestCase):
-    def test_get_repo_commits(self):
-        get_repo_commits("jdeora")
-
-
-if __name__ == '__main__':
-    unittest.main()
-
-
 
 
 
