@@ -7,6 +7,7 @@ def get_repo_commits(user_id):
     repos = json.loads(response.text)
 
     for repo in repos:
+        print(type(repo))
         repo_name = repo["name"]
         commits_url = f"https://api.github.com/repos/{user_id}/{repo_name}/commits"
         response = requests.get(commits_url)
