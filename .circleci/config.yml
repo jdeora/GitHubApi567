@@ -13,7 +13,7 @@ jobs:
                 command: |
                   pip install requests
                   pip install pytest
-                  pytest --junitxml=test-results/junit.xml Testmain1.py
+                  pytest --junitxml=test-results/junit.xml main1.py
             - store_test_results:
                 path: test-results
 workflows:
