@@ -1,4 +1,5 @@
 import unittest
+from main1 import get_repo_commits
 
 class TestGitHubAPI(unittest.TestCase):
     def test_get_repo_commits(self):
