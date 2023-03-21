@@ -11,7 +11,7 @@ class TestGitHubAPI(unittest.TestCase):
         get_repo_commits("user_with_private_repos")
     # Assert that no output for private repositories
     def test_empty_repo():
-    get_repo_commits("user_with_empty_repo")
+        get_repo_commits("user_with_empty_repo")
     # Assert that "Number of commits: 0" for empty repositories
 
 
